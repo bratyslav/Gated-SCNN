@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gated_scnn',
-    python_requires='>=3.7',
+    python_requires='>=3.6.9',
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
     packages=find_packages(),
